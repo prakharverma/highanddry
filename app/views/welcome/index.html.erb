@@ -1,0 +1,71 @@
+<div id="sidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <div style="padding-right: 20px">
+    <p style="color:red;font-size: 28px;margin-bottom: 0" align="center"><b><i>HIGH AND DRY</i></b></p>
+    <span style="float:right;color: #ffffff">By InfrimSystem</span>
+  </div>
+
+  <div style="margin-top:70px;">
+      <a href="#" data-toggle="modal" data-target="#aboutModal">About</a>
+      <a href="#">Projects</a>
+      <a href="#">GitHub</a>
+      <a href="#">Contact</a>
+  </div>
+
+
+</div>
+
+<section class="container-fluid" style="padding: 0;margin: 0;width: 100%">
+    <input id="pac-input" class="form-control" placeholder="Search" type="text">
+
+    <div id="map"></div>
+
+    <div class="container-fluid col-lg-6 col-md-6 col-sm-8 col-xs-12 col-lg-offset-3 col-md-offset-3 col-sm-offset-2" align="center" style="margin-top:10px;">
+        <%= form_tag("/getBars" , :method => "get" ,:class => "form-inline" , :id => 'frmSubmit', remote: true)  do %>
+            <%= hidden_field :getBarForm, :lat, style={class: 'form-control'} %>
+            <%= hidden_field :getBarForm, :long,  style={class: 'form-control'} %>
+
+          <%= button_tag 'Find me Booze', class: 'btn btn-warning', data: { disable_with: "<i class='fa fa-refresh fa-spin'>
+          </i> Searching Booze..."} %>
+
+        <% end %>
+    </div>
+</section>
+
+<!-- Modal -->
+<div id="aboutModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">HIGH AND DRY</h4>
+      </div>
+      <div class="modal-body">
+        <p>If the recent Supreme Court ruling on ban of alcohol on HIGHway left you DRY, don't worry we got you covered!
+            <br>
+            <br>
+          High and Dry is an Open Source application developed by InfrimSystem. It tells you all the nearby Booze Points, where you can find alcohol, keeping new Supreme Court
+          ruling in mind.
+          <br><br>
+          Booze Points data is collected using Google Places API & Roads data is collected from Open Street Map(OSM).
+
+          <br><br>
+          Know more about InfrimSystem.<a href = "#">Know More</a>
+          <br><br>
+          Browse through more interesting projects. <a href = "#"> Browse More Projects</a>
+
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEIzoZJRmZaEKdjGK_yBlOVw1MpBrekkI&libraries=places&callback=initMap"></script>
