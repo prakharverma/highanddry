@@ -28,7 +28,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.75">
+            <state vertical-scroll-proportion="0.0">
               <caret line="30" column="124" selection-start-line="30" selection-start-column="124" selection-end-line="30" selection-end-column="124" />
               <folding />
             </state>
@@ -38,8 +38,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28037384">
-              <caret line="12" column="103" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
+            <state vertical-scroll-proportion="0.8598131">
+              <caret line="70" column="139" selection-start-line="70" selection-start-column="139" selection-end-line="70" selection-end-column="139" />
               <folding />
             </state>
           </provider>
@@ -118,9 +118,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -223,6 +220,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -838,7 +838,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.75">
+        <state vertical-scroll-proportion="0.0">
           <caret line="30" column="124" selection-start-line="30" selection-start-column="124" selection-end-line="30" selection-end-column="124" />
           <folding />
         </state>
@@ -846,8 +846,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28037384">
-          <caret line="12" column="103" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
+        <state vertical-scroll-proportion="0.8598131">
+          <caret line="70" column="139" selection-start-line="70" selection-start-column="139" selection-end-line="70" selection-end-column="139" />
           <folding />
         </state>
       </provider>
