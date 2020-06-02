@@ -1,6 +1,6 @@
 # HIGH AND DRY
 
-If the recent Supreme Court ruling on ban of alcohol on HIGHway left you DRY, don't worry we got you covered! High and Dry is an Open Source application developed by InfrimSystem. It tells you all the nearby Booze Points, where you can find alcohol, keeping new Supreme Court ruling in mind.
+If the recent Supreme Court ruling on ban of alcohol on HIGHway left you DRY, don't worry we got you covered! High and Dry is an Open Source application. It tells you all the nearby Booze Points, where you can find alcohol, keeping new Supreme Court ruling in mind.
 
 Live Demo : http://highanddry-infrim.herokuapp.com
 
