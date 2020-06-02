@@ -4,9 +4,6 @@ If the recent Supreme Court ruling on ban of alcohol on HIGHway left you DRY, do
 
 Live Demo : http://highanddry-infrim.herokuapp.com
 
-Infrim System : http://www.infrimsystem.com
-
-
 ## Data
 
 Booze Points (POI) Data is collected using Google Places API and India Highway Roads data is colleected from OSM(Open Street Map).
